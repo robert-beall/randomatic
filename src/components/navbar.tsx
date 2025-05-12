@@ -11,7 +11,7 @@ const Navbar = () => {
             <div className="flex gap-6 items-center">
                 <span className="text-sm text-gray-600">v{ publicRuntimeConfig?.version }</span>
                 
-                <Link href="https://github.com/robert-beall/randomatic">
+                <Link target="#" href="https://github.com/robert-beall/randomatic">
                 <FaGithub className="w-5 h-5 text-gray-600 hover:text-gray-900 transition-colors" />
                 </Link>
             </div>
